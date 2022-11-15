@@ -1,0 +1,109 @@
+* {
+    /*box-sizing: border-box;
+    margin: 0;
+    padding: 0;*/
+}
+
+#pojemnik {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#naglowek {
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+#pojemnik-hamburger {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bulka {
+    width: 500px;
+    height: 55px;
+    background-color: bisque;
+    border-radius: 100px 100px 30px 30px;
+    border-bottom: 10px solid burlywood;
+}
+
+.ser {
+    width: 600px;
+    height: 20px;
+    background-color: yellow;
+    border-bottom: 5px solid gold;
+}
+
+#pomidor {
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    border-bottom: 5px solid brown;
+}
+
+.mieso {
+    width: 500px;
+    height: 30px;
+    background-color: chocolate;
+    border-radius: 30px;
+    border-bottom: 5px solid brown;
+}
+
+#cebula-pojemnik {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 400px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.cebula {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #DDA0DD;
+}
+
+#pojemnik-mieso {
+    display: flex;
+    justify-content: center;
+}
+
+.mieso-kula {
+    width: 90px;
+    height: 90px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+#ogorek {
+    width: 450px;
+    height: 30px;
+    background-color: lightgreen;
+    border-bottom: 20px solid green;
+    border-radius: 0 0 100px 100px;
+}
+
+#bulka-dol {
+    width: 500px;
+    height: 55px;
+    background-color: bisque;
+    border-top: 10px solid burlywood;
+    border-radius: 30px 30px 100px 100px;
+}
+
+#talerz {
+    width: 800px;
+    height: 20px;
+    background-color: silver;
+    border-top: 10px solid slategray;
+    border-radius: 0 0 30px 30px;
+}
